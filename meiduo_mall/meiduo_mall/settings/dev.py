@@ -24,7 +24,7 @@ SECRET_KEY = '6jtsq)(z7+2vg9^va%m#9l^v0ev7t@e#rjt_*s36gkygp3768='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'api.meiduo.site']
 
 import sys
 
@@ -149,7 +149,15 @@ CACHES = {
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
-    }
+    },
+    # 保存短信验证码
+    "sms_codes": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/2",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
 }
 
 # 保存 session数据到 Redis中

@@ -19,4 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include('meiduo_mall.apps.users.urls')),
+    url(r'^', include('meiduo_mall.apps.verifications.urls')),
 ]

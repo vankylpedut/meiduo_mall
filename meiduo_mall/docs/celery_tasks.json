@@ -1,0 +1,35 @@
+{
+  "content-encoding": "utf-8",
+  "headers": {
+    "kwargsrepr": "{}",
+    "id": "b3cdb0ce-8013-4e74-9a86-db529e6916c2",
+    "argsrepr": "('13412345678', '123456')",
+    "retries": 0,
+    "root_id": "b3cdb0ce-8013-4e74-9a86-db529e6916c2",
+    "task": "send_sms_code",
+    "expires": null,
+    "eta": null,
+    "parent_id": null,
+    "lang": "py",
+    "timelimit": [
+      null,
+      null
+    ],
+    "origin": "gen29544@ubuntu",
+    "group": null
+  },
+  "properties": {
+    "delivery_info": {
+      "routing_key": "celery",
+      "exchange": ""
+    },
+    "body_encoding": "base64",
+    "delivery_tag": "781af7d4-9530-48bd-a38f-67a0c2e09734",
+    "priority": 0,
+    "correlation_id": "b3cdb0ce-8013-4e74-9a86-db529e6916c2",
+    "reply_to": "f694a88c-fff1-3b6b-be45-64d8f345867e",
+    "delivery_mode": 2
+  },
+  "body": "W1siMTM0MTIzNDU2NzgiLCAiMTIzNDU2Il0sIHt9LCB7ImVycmJhY2tzIjogbnVsbCwgImNhbGxiYWNrcyI6IG51bGwsICJjaG9yZCI6IG51bGwsICJjaGFpbiI6IG51bGx9XQ==",
+  "content-type": "application/json"
+}

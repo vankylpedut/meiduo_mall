@@ -49,3 +49,102 @@ INFO 2018-11-30 00:43:31,916 basehttp 124 "GET /test2/ HTTP/1.1" 200 23
 INFO 2018-11-30 00:43:31,919 basehttp 124 "POST /test2/ HTTP/1.1" 200 24
 INFO 2018-11-30 00:43:35,805 basehttp 124 "GET /test2/ HTTP/1.1" 200 23
 INFO 2018-11-30 00:43:35,812 basehttp 124 "POST /test2/ HTTP/1.1" 200 24
+ERROR 2018-11-30 13:14:39,569 <input> 1 aaa
+WARNING 2018-11-30 20:36:10,498 base 152 Not Found: /
+WARNING 2018-11-30 20:36:10,503 basehttp 124 "GET / HTTP/1.1" 404 2417
+WARNING 2018-11-30 20:36:10,595 base 152 Not Found: /favicon.ico
+WARNING 2018-11-30 20:36:10,600 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2468
+WARNING 2018-11-30 20:36:29,721 base 152 Not Found: /sms_codes/136000000000/
+WARNING 2018-11-30 20:36:29,721 basehttp 124 "GET /sms_codes/136000000000/ HTTP/1.1" 404 2504
+WARNING 2018-11-30 20:38:39,968 base 152 Not Found: /sms_codes/136000000000/
+WARNING 2018-11-30 20:38:39,968 basehttp 124 "GET /sms_codes/136000000000/ HTTP/1.1" 404 2504
+INFO 2018-11-30 20:38:56,371 views 26 获取的验证码为:018187
+INFO 2018-11-30 20:38:56,397 basehttp 124 "GET /sms_codes/13612345678/ HTTP/1.1" 200 5170
+INFO 2018-11-30 20:38:56,475 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2018-11-30 20:38:56,475 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 304 0
+INFO 2018-11-30 20:38:56,476 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2018-11-30 20:38:56,496 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2018-11-30 20:38:56,499 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2018-11-30 20:38:56,500 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2018-11-30 20:38:56,504 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2018-11-30 20:38:56,511 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2018-11-30 20:38:56,513 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2018-11-30 20:38:56,521 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2018-11-30 20:38:56,682 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2018-11-30 20:44:03,859 views 28 获取的验证码为:288630
+INFO 2018-11-30 20:44:23,920 basehttp 124 "GET /sms_codes/18815066006/ HTTP/1.1" 200 5170
+INFO 2018-11-30 20:47:56,508 views 28 获取的验证码为:107630
+INFO 2018-11-30 20:47:57,197 basehttp 124 "GET /sms_codes/18815066006/ HTTP/1.1" 200 5170
+INFO 2018-11-30 20:47:57,219 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2018-11-30 20:47:57,220 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 304 0
+INFO 2018-11-30 20:47:57,225 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2018-11-30 20:47:57,229 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2018-11-30 20:47:57,231 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2018-11-30 20:47:57,232 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2018-11-30 20:47:57,234 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2018-11-30 20:47:57,235 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2018-11-30 20:47:57,236 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2018-11-30 20:47:57,237 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2018-11-30 20:48:12,288 views 28 获取的验证码为:773988
+INFO 2018-11-30 20:48:12,863 basehttp 124 "GET /sms_codes/18825066006/ HTTP/1.1" 200 5170
+WARNING 2018-11-30 20:48:16,145 basehttp 124 "GET /sms_codes/18825066006/ HTTP/1.1" 400 5210
+WARNING 2018-11-30 20:48:59,859 basehttp 124 "GET /sms_codes/18825066006/ HTTP/1.1" 400 5210
+INFO 2018-11-30 20:49:25,736 views 28 获取的验证码为:541290
+INFO 2018-11-30 20:49:26,959 basehttp 124 "GET /sms_codes/18825066006/ HTTP/1.1" 200 5170
+INFO 2018-11-30 20:50:49,353 views 28 获取的验证码为:582921
+INFO 2018-11-30 20:50:49,981 basehttp 124 "GET /sms_codes/18825066006/ HTTP/1.1" 200 5170
+WARNING 2018-11-30 20:54:44,403 base 152 Not Found: /
+WARNING 2018-11-30 20:54:44,404 basehttp 124 "GET / HTTP/1.1" 404 2417
+WARNING 2018-11-30 20:55:33,245 base 152 Not Found: /
+WARNING 2018-11-30 20:55:33,247 basehttp 124 "GET / HTTP/1.1" 404 2417
+WARNING 2018-11-30 20:55:43,919 base 152 Not Found: /register.html
+WARNING 2018-11-30 20:55:43,920 basehttp 124 "GET /register.html HTTP/1.1" 404 2474
+INFO 2018-11-30 21:08:29,718 views 28 获取的验证码为:502202
+INFO 2018-11-30 21:08:29,719 basehttp 124 "GET /sms_codes/13612345678/ HTTP/1.1" 200 16
+INFO 2018-11-30 21:10:53,520 views 28 获取的验证码为:335852
+INFO 2018-11-30 21:10:53,521 basehttp 124 "GET /sms_codes/13512345678/ HTTP/1.1" 200 16
+WARNING 2018-11-30 21:10:55,833 basehttp 124 "GET /sms_codes/13512345678/ HTTP/1.1" 400 47
+WARNING 2018-11-30 21:10:56,165 basehttp 124 "GET /sms_codes/13512345678/ HTTP/1.1" 400 47
+WARNING 2018-11-30 21:10:56,476 basehttp 124 "GET /sms_codes/13512345678/ HTTP/1.1" 400 47
+INFO 2018-11-30 21:15:43,526 views 28 获取的验证码为:026064
+INFO 2018-11-30 21:15:43,528 basehttp 124 "GET /sms_codes/13612345678/ HTTP/1.1" 200 16
+WARNING 2018-11-30 21:15:45,754 basehttp 124 "GET /sms_codes/13612345678/ HTTP/1.1" 400 47
+WARNING 2018-11-30 21:15:46,629 basehttp 124 "GET /sms_codes/13612345678/ HTTP/1.1" 400 47
+WARNING 2018-11-30 21:15:46,830 basehttp 124 "GET /sms_codes/13612345678/ HTTP/1.1" 400 47
+WARNING 2018-11-30 21:15:47,004 basehttp 124 "GET /sms_codes/13612345678/ HTTP/1.1" 400 47
+INFO 2018-11-30 21:16:50,270 views 28 获取的验证码为:392766
+INFO 2018-11-30 21:16:50,271 basehttp 124 "GET /sms_codes/13512345678/ HTTP/1.1" 200 16
+ERROR 2018-11-30 21:32:00,003 exception 80 Invalid HTTP_HOST header: 'api.meiduo.site:8000'. You may need to add 'api.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2018-11-30 21:32:00,071 basehttp 124 "GET /sms_codes/13612345678/ HTTP/1.1" 400 70564
+ERROR 2018-11-30 21:32:00,264 exception 80 Invalid HTTP_HOST header: 'api.meiduo.site:8000'. You may need to add 'api.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2018-11-30 21:32:00,314 basehttp 124 "GET /favicon.ico HTTP/1.1" 400 70403
+INFO 2018-11-30 21:32:47,924 views 28 获取的验证码为:200874
+INFO 2018-11-30 21:32:47,956 basehttp 124 "GET /sms_codes/13612345678/ HTTP/1.1" 200 5170
+INFO 2018-11-30 21:32:48,003 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2018-11-30 21:32:48,011 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2018-11-30 21:32:48,011 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2018-11-30 21:32:48,013 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+INFO 2018-11-30 21:32:48,017 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+INFO 2018-11-30 21:32:48,018 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2018-11-30 21:32:48,024 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2018-11-30 21:32:48,024 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2018-11-30 21:32:48,028 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2018-11-30 21:32:48,028 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+INFO 2018-11-30 21:32:48,064 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2018-11-30 21:32:48,066 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1739
+WARNING 2018-11-30 21:32:48,240 base 152 Not Found: /favicon.ico
+WARNING 2018-11-30 21:32:48,241 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2474
+INFO 2018-11-30 22:21:22,513 views 28 获取的验证码为:050631
+INFO 2018-11-30 22:21:22,534 basehttp 124 "GET /sms_codes/13612345678/ HTTP/1.1" 200 5170
+INFO 2018-11-30 22:21:22,574 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2018-11-30 22:21:22,575 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+INFO 2018-11-30 22:21:22,576 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+INFO 2018-11-30 22:21:22,576 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2018-11-30 22:21:22,577 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2018-11-30 22:21:22,583 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2018-11-30 22:21:22,612 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2018-11-30 22:21:22,615 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+INFO 2018-11-30 22:21:22,617 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2018-11-30 22:21:22,606 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+WARNING 2018-11-30 22:21:22,643 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1739
+INFO 2018-11-30 22:21:22,670 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458

@@ -5,6 +5,8 @@ from django.views import View
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
+from meiduo_mall.utils.exceptions import logger
+
 
 class TestView(View):
     def get(self, request):
@@ -22,3 +24,5 @@ class TestView2(APIView):
         response = Response({'message': 'post请求'})
         # response['Access-Control-Allow-Origin'] = 'http://127.0.0.1:8080'
         return response
+
+
