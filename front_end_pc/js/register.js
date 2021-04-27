@@ -1,6 +1,7 @@
 var vm = new Vue({
     el: '#app',
     data: {
+        host,
         error_name: false,
         error_password: false,
         error_check_password: false,
@@ -31,6 +32,23 @@ var vm = new Vue({
             } else {
                 this.error_name = false;
             }
+            // 检查重名
+            if (this.error_name == false) {
+                axios.get(this.host + '/usernames/' + this.username + '/count/', {
+                    responseType: 'json'
+                })
+                    .then(response => {
+                        if (response.data.count > 0) {
+                            this.error_name_message = '用户名已存在';
+                            this.error_name = true;
+                        } else {
+                            this.error_name = false;
+                        }
+                    })
+                    .catch(error => {
+                        console.log(error.response.data);
+                    })
+            }
         },
         check_pwd: function () {
             let len = this.password.length;
@@ -54,6 +72,23 @@ var vm = new Vue({
             } else {
                 this.error_phone_message = '请输入正确的手机号码';
                 this.error_phone = true;
+            }
+            // 检查号码是否重复
+            if (this.error_phone == false) {
+                axios.get(this.host + '/mobiles/' + this.mobile + '/count/', {
+                    responseType: 'json'
+                })
+                    .then(response => {
+                        if (response.data.count > 0) {
+                            this.error_phone_message = '号码已注册';
+                            this.error_phone = true;
+                        } else {
+                            this.error_phone = false;
+                        }
+                    })
+                    .catch(error => {
+                        console.log(error.response.data);
+                    })
             }
         },
         check_sms_code: function () {
