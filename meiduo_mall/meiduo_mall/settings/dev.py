@@ -210,7 +210,8 @@ CORS_ORIGIN_WHITELIST = (
     '127.0.0.1:8080',
     'localhost:8080',
     'www.meiduo.site:8080',
-    'api.meiduo.site:8000'
+    'api.meiduo.site:8000',
+    'api.meiduo.site:8080',
 )
 # 指定在跨域访问中，后台是否支持cookie操作
 CORS_ALLOW_CREDENTIALS = True

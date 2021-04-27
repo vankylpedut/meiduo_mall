@@ -6,6 +6,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from meiduo_mall.utils.exceptions import logger
+from users.models import User
 
 
 class TestView(View):
@@ -26,3 +27,13 @@ class TestView2(APIView):
         return response
 
 
+class UsernameCountView(APIView):
+    def get(self, request, username):
+        count = User.objects.filter(username=username).count()
+
+        data = {
+            "username": username,
+            "count": count
+        }
+
+        return Response(data)
